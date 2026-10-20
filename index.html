@@ -1,0 +1,696 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Portfolio of a Computer Science and Engineering student graduating in 2027, showcasing software projects, technical skills, and leadership experience.">
+
+    <meta name="theme-color" content="#f7f4ff">
+
+    <title>My Portfolio | Computer Science & Engineering</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="site-header">
+        <nav class="navbar container" aria-label="Main navigation">
+            <a href="#home" class="logo">
+                <span class="logo-icon">D<span class="logo-symbol">Ξ</span></span>
+                <span>Portfolio</span>
+            </a>
+
+            <button class="menu-toggle"
+                    aria-label="Toggle navigation"
+                    aria-expanded="false"
+                    aria-controls="nav-links">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#leadership">Leadership</a></li>
+                <li><a href="#contact" class="nav-cta">Contact me ↗</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero -->
+        <section class="hero section" id="home">
+            <div class="container hero-grid">
+
+                <div class="hero-content">
+                    <span class="eyebrow">
+                        <span class="status-dot"></span>
+                        OPEN TO TECH INTERNSHIP OPPORTUNITIES
+                    </span>
+
+                    <h1>
+                        Hi, I'm <span class="gradient-text">Diya.</span><br>
+                        I love building<br>
+                        <span class="hero-highlight">things with code.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        I'm a Computer Science and Engineering student
+                        graduating in 2027, exploring software development,
+                        computer vision, and immersive technology.
+                        I enjoy turning ideas into practical projects
+                        and learning something new along the way.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#projects" class="button button-primary">
+                            Explore my work <span>↗</span>
+                        </a>
+
+                        <a href="#contact" class="button button-secondary">
+                            Let's connect
+                        </a>
+                    </div>
+
+                    <div class="hero-socials">
+                        <a href="https://github.com/Diya-Stanly"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            GitHub ↗
+                        </a>
+                        <span class="social-divider">·</span>
+                        <span>B.Tech CSE · Class of 2027</span>
+                    </div>
+                </div>
+
+                <div class="hero-visual" aria-label="Decorative portfolio illustration">
+                    <div class="orbit orbit-one"></div>
+                    <div class="orbit orbit-two"></div>
+
+                    <div class="floating-card card-top">
+                        <span class="floating-icon">✦</span>
+                        <div>
+                            <strong>Curious mind</strong>
+                            <span>Always learning</span>
+                        </div>
+                    </div>
+
+                    <div class="code-window">
+                        <div class="window-top">
+                            <div class="window-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <span class="window-filename">developer.py</span>
+                        </div>
+
+                        <div class="code-content">
+                            <p><span class="code-purple">class</span> Developer:</p>
+                            <p class="indent">
+                                name = <span class="code-green">"Diya"</span>
+                            </p>
+                            <p class="indent">
+                                degree = <span class="code-green">"B.Tech CSE"</span>
+                            </p>
+                            <p class="indent">
+                                graduating = <span class="code-orange">2027</span>
+                            </p>
+                            <p class="indent">
+                                interests = [
+                            </p>
+                            <p class="indent double-indent">
+                                <span class="code-green">"Software"</span>,
+                            </p>
+                            <p class="indent double-indent">
+                                <span class="code-green">"AI & Vision"</span>,
+                            </p>
+                            <p class="indent double-indent">
+                                <span class="code-green">"VR"</span>
+                            </p>
+                            <p class="indent">]</p>
+                            <p class="code-comment">
+                                # Building, learning, growing.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="floating-card card-bottom">
+                        <span class="project-sparkle">✧</span>
+                        <div>
+                            <strong>Made with curiosity</strong>
+                            <span>One project at a time</span>
+                        </div>
+                    </div>
+
+                    <span class="decor decor-star">✳</span>
+                    <span class="decor decor-plus">+</span>
+                </div>
+
+            </div>
+
+            <div class="hero-bottom container">
+                <span>SCROLL TO EXPLORE</span>
+                <span class="scroll-line"></span>
+                <span>MY DEVELOPER JOURNEY</span>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section about-section" id="about">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label">A LITTLE ABOUT ME</span>
+                    <h2>Turning ideas into <span class="gradient-text">reality.</span></h2>
+                    <p>Exploring possibilities, creating solutions, and learning with every project.</p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-copy">
+                        <p>
+                            I’m a Computer Science and Design Engineering student Graduating in 2027 who loves
+                            blending technology with creativity to turn ideas into
+                            meaningful digital experiences.
+                        </p>
+
+                        <p>
+                            From building web applications and Python projects to exploring innovative
+                            solutions through my academic work, I enjoy learning by
+                            creating. Beyond coding, I’m passionate about design,
+                            collaboration, and leadership, and I love bringing people
+                            and ideas together to make things happen. I’m always
+                            excited to explore new technologies, take on challenges,
+                            and build solutions that make a difference.
+                        </p>
+
+                        <p>
+                            I'm looking forward to internship opportunities
+                            where I can contribute, learn from experienced
+                            developers, and grow as an engineer.
+                        </p>
+
+                        <a href="#contact" class="text-link">
+                            Let's work on something meaningful ↗
+                        </a>
+                    </div>
+
+                    <div class="about-facts">
+
+                        <div class="fact-card">
+                            <h2>A collection of <span class="gradient-text">projects I've built.</span></h2>
+                            <p>From web applications and Python tools to computer vision and immersive learning experiences</p>
+                        </div>
+
+                        <div class="fact-card">
+                            <h2>Currently <span class="gradient-text">EXPLORING</span></h2>
+                            <p>Python development, AI-powered tools,
+                                computer vision, and creative technology.</p>
+                        </div>
+
+                        <div class="fact-card fact-card-wide">
+                            <span class="fact-icon">✦</span>
+                            <div>
+                                <span class="fact-number">OPEN</span>
+                                <span class="fact-title">Ready for opportunities</span>
+                                <p>Looking to learn, contribute, and grow through meaningful tech internships.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section skills-section" id="skills">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label">MY TOOLKIT</span>
+                    <h2>Skills I've <span class="gradient-text">used.</span></h2>
+                    <p>Languages, frameworks, and tools I've worked with
+                    while building projects and exploring technology.</p>
+                </div>
+
+                <div class="skills-grid">
+
+                    <article class="skill-card">
+                        <div class="skill-icon">⌘</div>
+                        <h3>Programming Languages</h3>
+                        <p>Languages I've used for programming
+                        and application development.</p>
+                        <div class="skill-tags">
+                            <span>Python</span>
+                            <span>C</span>
+                            <span>Java</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">⌨</div>
+                        <h3>Web Development</h3>
+                        <p>Technologies I've used to build
+                        interactive web applications.</p>
+                        <div class="skill-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">⚙</div>
+                        <h3>Python & Code Quality</h3>
+                        <p>Tools I've used to build and test
+                        my code-analysis application.</p>
+                        <div class="skill-tags">
+                            <span>Flask</span>
+                            <span>Ruff</span>
+                            <span>pytest</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">◈</div>
+                        <h3>Computer Vision & Tools</h3>
+                        <p>Technologies I've explored for
+                        projects and version control.</p>
+                        <div class="skill-tags">
+                            <span>OpenCV</span>
+                            <span>MediaPipe</span>
+                            <span>Git</span>
+                            <span>GitHub</span>
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section projects-section" id="projects">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label">THINGS I'VE BUILT</span>
+                    <h2>Projects with <span class="gradient-text">purpose.</span></h2>
+                    <p>A collection of projects exploring software, AI, and creative technology.</p>
+                </div>
+
+                <div class="projects-grid">
+
+                    <!-- 01: CodeSage AI -->
+                    <article class="project-card project-card-featured">
+                        <div class="project-art art-codesage">
+                            <div class="art-orbit"></div>
+                            <div class="art-symbol">&lt;/&gt;</div>
+                            <span class="art-caption">ANALYZE · FIX · IMPROVE</span>
+                            <span class="project-status status-complete">Published</span>
+                        </div>
+
+                        <div class="project-info">
+                            <div class="project-meta">
+                                <span>01 / PYTHON DEVELOPMENT</span>
+                                <span class="project-dot">●</span>
+                            </div>
+                            <h3>CodeSage AI</h3>
+                            <p>A Python code-analysis dashboard that detects syntax errors, identifies code-quality issues with Ruff, and applies supported automatic fixes with side-by-side code comparison.</p>
+                            <div class="skill-tags">
+                                <span>Python</span><span>Flask</span><span>Ruff</span>
+                                <span>pytest</span><span>JavaScript</span>
+                            </div>
+                            
+                            <div class="hero-actions">
+                                <a href="https://codesageai-ckk0.onrender.com/"
+                                target="_blank" rel="noopener noreferrer"
+                                class="button button-primary">Live Demo ↗</a>
+
+                                <a href="https://github.com/Diya-Stanly/CodeSageAI"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="button button-secondary">
+                                    Source Code ↗
+                                </a>
+                            </div>
+
+                            
+                        </div>
+                    </article>
+
+                    <!-- 02: AlignIQ -->
+                    <article class="project-card">
+                        <div class="project-art art-aligniq">
+                            <div class="art-orbit"></div>
+                            <div class="art-symbol">⌁</div>
+                            <span class="art-caption">POSTURE · WELL-BEING</span>
+                            <span class="project-status status-progress">In progress</span>
+                        </div>
+
+                        <div class="project-info">
+                            <div class="project-meta">
+                                <span>02 / COMPUTER VISION</span>
+                                <span class="project-dot">●</span>
+                            </div>
+                            <h3>AlignIQ</h3>
+                            <p>A project in development exploring computer vision for posture analysis, screen-distance awareness, and visual well-being during computer use.</p>
+                            <div class="skill-tags">
+                                <span>Python</span><span>OpenCV</span>
+                                <span>MediaPipe</span><span>Flask</span>
+                            </div>
+                            <p class="project-link-placeholder">Project demo coming soon.</p>
+                        </div>
+                    </article>
+
+                    <!-- 03: WeatherWise -->
+                    <article class="project-card">
+                        <div class="project-art art-weather">
+                            <div class="weather-sun"></div>
+                            <div class="art-symbol">☀</div>
+                            <span class="art-caption">WEATHER · FORECAST · INSIGHTS</span>
+                            <span class="project-status status-complete">Published</span>
+                        </div>
+
+                        <div class="project-info">
+                            <div class="project-meta">
+                                <span>03 / WEB DEVELOPMENT</span>
+                                <span class="project-dot">●</span>
+                            </div>
+                            <h3>WeatherWise</h3>
+                            <p>A responsive weather dashboard integrating the Open-Meteo API to display current conditions, forecasts, and useful weather information.</p>
+                            <div class="skill-tags">
+                                <span>HTML</span><span>CSS</span>
+                                <span>JavaScript</span><span>Open-Meteo API</span>
+                            </div>
+                            <div class="hero-actions">
+                                <a href="https://diya-stanly.github.io/weatherwise/"
+                                target="_blank" rel="noopener noreferrer"
+                                class="button button-primary">Live Demo ↗</a>
+                                <a href="https://github.com/Diya-Stanly/weatherwise"
+                                target="_blank" rel="noopener noreferrer"
+                                class="button button-secondary">GitHub Profile ↗</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 04: SkillMatch -->
+                    <article class="project-card">
+                        <div class="project-art art-skillmatch">
+                            <div class="art-orbit"></div>
+                            <div class="art-symbol">✧</div>
+                            <span class="art-caption">RESUME · SKILLS · GROWTH</span>
+                            <span class="project-status status-complete">Published</span>
+                        </div>
+
+                        <div class="project-info">
+                            <div class="project-meta">
+                                <span>04 / WEB DEVELOPMENT</span>
+                                <span class="project-dot">●</span>
+                            </div>
+                            <h3>SkillMatch</h3>
+                            <p>A browser-based resume analyzer that compares resume keywords with job descriptions, calculates a match percentage, and highlights matched and missing skills.</p>
+                            <div class="skill-tags">
+                                <span>HTML</span><span>CSS</span>
+                                <span>JavaScript</span><span>PDF Parsing</span>
+                            </div>
+                            <div class="hero-actions">
+                                <a href="https://diya-stanly.github.io/skillmatch/"
+                                target="_blank" rel="noopener noreferrer"
+                                class="button button-primary">Live Demo ↗</a>
+                                <a href="https://github.com/Diya-Stanly/skillmatch"
+                                target="_blank" rel="noopener noreferrer"
+                                class="button button-secondary">GitHub Profile ↗</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- 05: VR Dictionary -->
+                    <article class="project-card">
+                        <div class="project-art art-vr">
+                            <div class="vr-circle vr-circle-one"></div>
+                            <div class="vr-circle vr-circle-two"></div>
+                            <div class="art-symbol">◇</div>
+                            <span class="art-caption">LEARN · EXPLORE · DISCOVER</span>
+                            <span class="project-status status-complete">Completed</span>
+                        </div>
+
+                        <div class="project-info">
+                            <div class="project-meta">
+                                <span>05 / VIRTUAL REALITY</span>
+                                <span class="project-dot">●</span>
+                            </div>
+                            <h3>VR Dictionary</h3>
+                            <p>An immersive educational dictionary for Zoology and Botany designed to make exploring subject concepts more interactive through virtual reality.</p>
+                            <div class="skill-tags">
+                                <span>Unity</span><span>Unity XR</span><span>C#</span>
+                            </div>
+                            <p class="project-link-placeholder">Project showcase coming soon.</p>
+                        </div>
+                    </article>
+
+                    <!-- 06: StudySync -->
+                    <article class="project-card">
+                        <div class="project-art art-studysync">
+                            <div class="art-orbit"></div>
+                            <div class="art-symbol">✦</div>
+                            <span class="art-caption">PLAN · FOCUS · PROGRESS</span>
+                            <span class="project-status status-complete">Published</span>
+                        </div>
+
+                        <div class="project-info">
+                            <div class="project-meta">
+                                <span>06 / WEB DEVELOPMENT</span>
+                                <span class="project-dot">●</span>
+                            </div>
+                            <h3>StudySync</h3>
+                            <p>A responsive student productivity dashboard for organizing study tasks, tracking completion progress, and supporting focused study sessions.</p>
+                            <div class="skill-tags">
+                                <span>HTML</span><span>CSS</span>
+                                <span>JavaScript</span><span>LocalStorage</span>
+                            </div>
+                            <div class="hero-actions">
+                                <a href="https://diya-stanly.github.io/studysync/"
+                                target="_blank" rel="noopener noreferrer"
+                                class="button button-primary">Live Demo ↗</a>
+                                <a href="https://github.com/Diya-Stanly/studysync"
+                                target="_blank" rel="noopener noreferrer"
+                                class="button button-secondary">Source Code ↗</a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+                <div class="projects-footer">
+                    <p>More projects will be added as I continue learning.</p>
+                    <a href="https://github.com/Diya-Stanly"
+                    target="_blank" rel="noopener noreferrer"
+                    class="button button-secondary">Explore my GitHub ↗</a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Leadership -->
+        <section class="section leadership-section" id="leadership">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label">BEYOND THE CODE</span>
+                    <h2>Growing through <span class="gradient-text">leadership.</span></h2>
+                    <p>Technology is about people, collaboration,
+                       and ideas too.</p>
+                </div>
+
+                <article class="leadership-card">
+                    <div class="leadership-mark">H.</div>
+
+                    <div class="leadership-content">
+                        <span class="leadership-label">
+                            LEADERSHIP EXPERIENCE
+                        </span>
+                        <h3>HUE'D Club</h3>
+                        <p class="leadership-role">
+                            Co-founder · Event & Partnership Lead
+                        </p>
+                        <p>
+                            Contributing to club initiatives through event
+                            planning, coordination, partnership building,
+                            and collaboration with team members.
+                        </p>
+                        <div class="skill-tags">
+                            <span>Leadership</span>
+                            <span>Event Planning</span>
+                            <span>Communication</span>
+                            <span>Partnerships</span>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Certifications -->
+        <section class="section learning-section" id="learning">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label">MY ACHIEVEMENTS</span>
+                    <h2>Learning, <span class="gradient-text">recognised.</span></h2>
+                    <p>
+                        Courses I've completed and certifications
+                        I've earned along my learning journey.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+
+                    <!-- Certificate 1: Python Bootcamp -->
+                    <article class="skill-card">
+                        <div class="skill-icon">✧</div>
+                        <h3>Complete 2025 Python Bootcamp: Learn Python From Scratch</h3>
+                        <p>Issued by: Udemy (Online)</p>
+                        <p>Date: June, 2025</p>
+                        <div class="skill-tags">
+                            <span>Python</span>
+                            <span>Programming Fundamentals</span>
+                        </div>
+                        <a href="certificates/udemy python.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="button button-primary">
+                            View Certificate ↗
+                        </a>
+                    </article>
+
+                    <!-- Certificate 2: AI Foundations -->
+                    <article class="skill-card">
+                        <div class="skill-icon">✦</div>
+                        <h3>AI Foundation For Everyone</h3>
+                        <p>Issued by: IBM (Coursera)</p>
+                        <p>Date: June, 2025</p>
+                        <div class="skill-tags">
+                            <span>Artificial Intelligence</span>
+                            <span>Generative AI</span>
+                            <span>Prompt Engineering</span>
+                        </div>
+                        <a href="certificates/Coursera - AI Foundations for Everyone.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="button button-primary">
+                            View Certificate ↗
+                        </a>
+                    </article>
+
+                    <!-- Certificate 3: Figma UI/UX -->
+                    <article class="skill-card">
+                        <div class="skill-icon">✎</div>
+                        <h3>New Figma 2024: Getting Started – The Beginner to Pro Class</h3>
+                        <p>Issued by: Udemy (Online)</p>
+                        <p>Date: May, 2025</p>
+                        <div class="skill-tags">
+                            <span>Figma</span>
+                            <span>UI/UX Design</span>
+                            <span>Prototyping</span>
+                        </div>
+                        <a href="certificates/udemy figma.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="button button-primary">
+                            View Certificate ↗
+                        </a>
+                    </article>
+
+                    <!-- Certificate 4: Data Science, AI and Cybersecurity -->
+                    <article class="skill-card">
+                        <div class="skill-icon">✳</div>
+                        <h3>Data Science, AI and Cyber Security &amp; Privacy</h3>
+                        <p>Issued by: iSTEP (Online)</p>
+                        <p>Date: March, 2025</p>
+                        <div class="skill-tags">
+                            <span>Data Science</span>
+                            <span>Artificial Intelligence</span>
+                            <span>Cybersecurity &amp; Privacy</span>
+                        </div>
+                        <a href="certificates/masterclass certificate.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="button button-primary">
+                            View Certificate ↗
+                        </a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+
+                <div class="contact-card">
+                    <span class="section-label">HAVE AN OPPORTUNITY?</span>
+
+                    <h2>Let's build something <span>meaningful.</span></h2>
+
+                    <p>
+                        I'm interested in paid technology internships
+                        where I can apply my skills, learn from a team,
+                        and contribute to real-world projects.
+                    </p>
+
+                    <div class="contact-actions">
+                        <a href="https://github.com/Diya-Stanly"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="button button-light">
+                            Visit my GitHub ↗
+                        </a>
+
+                        <!-- Replace with your professional email -->
+                        <a href="mailto:diyastanlyk@gmail.com"
+                           class="button button-outline-light">
+                            Email me ✉
+                        </a>
+                    </div>
+
+                
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <a href="#home" class="logo footer-logo">
+                <span class="logo-icon">D<span class="logo-symbol">Ξ</span></span>
+                <span>Made with curiosity.</span>
+            </a>
+
+            <p>© <span id="current-year">2026</span> Diya.
+               Learning, building, and growing.</p>
+
+            <a href="#home" class="back-to-top">Back to top ↑</a>
+        </div>
+    </footer>
+
+</body>
+</html>
+
